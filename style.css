@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #d4cecd;
 }
 
 header {
@@ -14,10 +15,11 @@ header {
 }
 
 h1 {
-    background-color: #27b0a2;
+    background-color: #292cf0;
     width: 225px;
     height: 40px;
     font-size: 30px;
+    font-family: marker felt, fantasy;
     margin-right: 900px;
     padding: 20px 0px 20px 120px; 
 }
@@ -26,12 +28,100 @@ li {
     display: flex;
     flex: row;
     justify-content: right;
-    color: #27b0a2;
+    color: #292cf0;
     font-size: 30px;
+    font-family: marker felt, fantasy;
 }
 
 a {
     text-decoration: none;
-    color: #27b0a2;
-    border-bottom: 3px solid #27b0a2;
+    color: #292cf0;
+    /*border-bottom: 3px solid #292cf0;*/
+}
+
+.below-head {
+    background-color: #292cf0;
+    color: #242222;
+    text-align: center;
+    padding: 1px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-family: marker felt, fantasy;
+    font: bold;
+}
+
+.about-header {
+    font-size: 46px;
+    border-bottom: 3px solid #292cf0;
+    margin: 20px 50px;
+    color: #242222;
+    padding-right: 25px;
+
+}
+
+.project-header {
+    font-size: 46px;
+    border-bottom: 3px solid #292cf0;
+    margin: 0 50px;
+    color: #242222;
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    /*border: 2px solid red;*/
+    text-align: center;
+    justify-content: space-around;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.container {
+    display: flex;
+    /*border: 2px solid red;*/
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;    
+}
+
+.card {
+    /*border: 2px solid purple;*/
+    display: flex;
+    margin-top: 5px;
+}
+
+.contact-header {
+ color: #242222;;
+ font-size: 46px;
+ border-bottom: 3px solid #292cf0;
+ text-align: center;
+ padding-bottom: 25px;
+ margin: 50px;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 25px;
+    padding-right: 140px;
+    list-style: none;
+}
+
+li {
+    color: #242222;
+}
+
+li .git {
+    color: #242222;
 }
