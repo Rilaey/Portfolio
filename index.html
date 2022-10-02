@@ -4,86 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rileys Portfolio</title>
+    <title>Riley's Portfolio</title>
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <header class="head">
+    <header>
         <h1>Riley's Portfolio</h1>
-        <nav class="top-nav">
-            <li>
-                <ul><a href="#about-me">About Me</a></ul>
-                <ul><a href="#projects">Projects</a></ul>
-                <ul><a href="#contact">Contact Info</a></ul>
-                <ul><a href="#resume">Resume</a></ul>
-            </li>
-        </nav>
+            <nav>
+                <li class="top-nav">
+                    <ul><a href="#about-me">About me</a></ul>
+                    <ul><a href="#work">Work</a></ul>
+                    <ul><a href="#contact">Contact</a></ul>
+                </li>
+            </nav>
     </header>
 
-    <section class="below-head">
+    <header class="below-head">
         <h2>Lets Get Started!</h2>
-    </section>
+    </header>
 
-    <section class="about">
-        <h3 class="about-header">About Me</h3>
-            <p>I began my programming journey in late fall of 2021 and quickly fell in love with the idea 
-                of creating projects while wanting to learn amazing new concepts and languages, But I felt I needed
-                more of a structure to my learning which is when I enrolled in the UCF coding bootcamp in fall of 
-                2022. I'm very excited to further my journey and see where this path takes me!
-            </p>
-    </section>
+    <section class="container">
+        <div class="about-me" id="about-me">
+            <h3 class="heads">About Me</h3>
+                <img src="./images/profile_pic.jpeg" alt="photo of myself" class="profile">
+                    <p>I began my programming journey in late fall of 2021 and quickly fell in love with the idea 
+                    of creating projects while wanting to learn amazing new concepts and languages, But I felt I needed
+                    more of a structure to my learning which is when I enrolled in the UCF coding bootcamp in fall of 
+                    2022. I'm very excited to further my journey and see where this path takes me!</p>
+        </div>
 
-        <aside>
-            <h3 class="project-header">Projects</h3>
-        </aside>
+        <div class="work-container" id="work">
+            <h3 class="heads">Work</h3>
 
-     <section class="container">
+                <div class="big-project card">
 
-            <section class="card">
-                <h4>Clock App</h4>
-                    <img src="./images/clock.jpg" alt="picture of a clock" class="bigger-image">
-                    <p>HTML / CSS / JavaScript</p>
-            </section>
+                <div class="clock">
+                    <div class="clock-text">
+                    <h4>Clock App</h4>
+                        <p>HTML/CSS/JS</p>
+                    </div>    
+                            <a href="https://rilaey.github.io/Clock/"> <img src="./images/clock.jpg" alt="photo of clock" class="big-img"> </a>
+                </div>
 
-            <section class="card">
-                <h4>Calculator App</h4>
-                    <img src="./images/calc.jpg" alt="picture of a calculator">
-                    <p>HTML / CSS / JavaScript</p>
-            </section>
+                </div>
+                
+                <div class="small-project-cards">
 
-            <section class="card">
-                <h4>Weather App</h4>
-                    <img src="./images/weather.png" alt="picture of different weather conditions">
-                    <p>HTML / CSS / JavaScript</p>
-            </section>
+                <div class="calc card">
+                    <div class="calc-text">
+                    <h4>Calculator</h4>
+                        <p>HMTL/CSS/JS</p>
+                    </div>
+                           <a href="https://github.com/Rilaey"> <img src="./images/calc.jpg" alt="photo of calculator" class="small-img"> </a>
+                </div>
 
-            <section class="card">
-                <h4>To-Do List</h4>
-                    <img src="./images/to-do.png" alt="picture of a to-do list">
-                    <p>HTML / CSS / JavaScript</p>
-            </section>
+                <div class="to-do card">
+                    <div class="to-do-text">
+                    <h4>To-Do List</h4>
+                        <p>HMTL/CSS/JS</p>
+                    </div>    
+                            <a href="https://github.com/Rilaey"> <img src="./images/to-do.png" alt="photo of to do list" class="small-img"> </a>
+                </div>
 
-            <section class="card">
-                <h4>Tic-Tac-Toe</h4>
-                    <img src="./images/ttt.jpg" alt="picture of a tic-tac-toe board">
-                    <p>HTML / CSS / JavaScript</p>
-            </section>
+                <div class="weather card">
+                    <div class="weather-text">
+                    <h4>Weather App</h4>
+                        <p>HMTL/CSS/JS/NODE</p>
+                    </div>    
+                            <a href="https://github.com/Rilaey"> <img src="./images/weather.png" alt="photo of weather seaons" class="small-img"> </a>
+                </div>
 
-    </section>
+                <div class="tic-tac-toe card">
+                    <div class="ttt-text">
+                    <h4>Tic-Tac-Toe</h4>
+                        <p>HMTL/CSS/JS</p>
+                    </div>    
+                            <a href="https://github.com/Rilaey"> <img src="./images/ttt.jpg" alt="photo of tic tac toe board" class="small-img"> </a>
+                </div>
 
-    <section class="contact">
-        <h3 class="contact-header">Contact Info</h3>
-            <nav>
-                <ul class="contact-list">
-                    <li>407-276-0494</li>
-                    <li>xrileynewhart@gmail.com</li>
-                    <li><a href="https://github.com/Rilaey" class="git">Github</a></li>
-                </ul>
-            </nav>
-    </section>
+                </div>
+        </div>
 
-    <section>
-        <h3>Resume</h3>
+        <div class="contact" id="contact">
+            <h3 class="heads">Contact</h3>
+                <nav>
+                    <li>
+                        <ul>xrileynewhart@gmail.com</ul>
+                        <ul>407-276-0494</ul>
+                        <ul><a href="https://github.com/Rilaey" class="hub">Github</a></ul>
+                    </li>
+                </nav>    
+        </div>
+
     </section>
 </body>
 </html>

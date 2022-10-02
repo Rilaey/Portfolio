@@ -24,7 +24,24 @@ h1 {
     padding: 20px 0px 20px 120px; 
 }
 
+h3 {
+    border-right: 3px solid #292cf0;
+    padding: 70px;
+    padding-left: 65px;
+    font-size: 32px;
+    width: 100px;
+}
+
 li {
+    list-style: none;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.top-nav {
     display: flex;
     flex: row;
     justify-content: right;
@@ -42,7 +59,8 @@ a {
 .below-head {
     background-color: #292cf0;
     color: #242222;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     padding: 1px;
     margin-bottom: 25px;
     font-size: 24px;
@@ -50,78 +68,125 @@ a {
     font: bold;
 }
 
-.about-header {
-    font-size: 46px;
-    border-bottom: 3px solid #292cf0;
-    margin: 20px 50px;
-    color: #242222;
-    padding-right: 25px;
-
+.profile {
+    height: 200px;
+    width: 220px;
+    border-radius: 50%;
+    margin: 30px;
 }
 
-.project-header {
-    font-size: 46px;
-    border-bottom: 3px solid #292cf0;
-    margin: 0 50px;
-    color: #242222;
-    padding-bottom: 25px;
+.about-me {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-.about {
-    /*border: 2px solid red;*/
-    text-align: center;
-    justify-content: space-around;
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-p {
+.contact nav li {
+    display: flex;
+    margin-right: 680px;
+    font-size: 24px;
+}
+
+.hub {
     color: black;
-    font-size: 20px;
 }
 
-img {
-    width: 300px;
-    height: 200px;
+.about-head {
+    padding-right: 65px;
 }
 
-.container {
+.work-container {
+    display: flex
+}
+
+.big-img {
+    width: 650px;
+    height: 600px;
+    border: 5px solid #292cf0;
+    margin: 0 20px;
+}
+
+.small-project-cards {
+    /*border: 2px solid orange;*/
     display: flex;
-    /*border: 2px solid red;*/
     flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;    
+    width: 100%;
+    flex-basis: 50%;
+    justify-content: space-between;
+    padding-right: 200px;
+    height: 630px;
 }
 
-.card {
-    /*border: 2px solid purple;*/
+.small-project-cards img {
+    width: 290px;
+    height: 170px;
+    border: 5px solid #292cf0;
+}
+
+.clock {
     display: flex;
-    margin-top: 5px;
 }
 
-.contact-header {
- color: #242222;;
- font-size: 46px;
- border-bottom: 3px solid #292cf0;
- text-align: center;
- padding-bottom: 25px;
- margin: 50px;
+.clock-text {
+    position: relative;
+    font-size: 36px;
+    background-color: rgba(161, 86, 127, 0.5);
+    left: 150px;
+    top: 400px;
+    height: 200px;
+    width: 120px;
+    border: 2px solid black;
 }
 
-.contact-list {
+.calc-text {
+    position: relative;
+    font-size: 22px;
+    background-color: rgba(161, 86, 127, 0.5);
+    width: 120px;
+    top: 193px;
+    left: 5px;
+}
+
+.weather-text {
+    position: relative;
+    font-size: 22px;
+    background-color: rgba(161, 86, 127, 0.5);
+    width: 180px;
+    top: 193px;
+    left: 5px;
+}
+
+.ttt-text {
+    position: relative;
+    font-size: 22px;
+    background-color: rgba(161, 86, 127, 0.5);
+    width: 125px;
+    top: 193px;
+    left: 5px;
+}
+
+.to-do-text {
+    position: relative;
+    font-size: 22px;
+    background-color: rgba(161, 86, 127, 0.5);
+    width: 125px;
+    top: 193px;
+    left: 5px;
+}
+
+a:hover {
+    opacity: 0.4;
+}
+
+.heads {
     display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    margin-top: 25px;
-    padding-right: 140px;
-    list-style: none;
-}
-
-li {
-    color: #242222;
-}
-
-li .git {
-    color: #242222;
+    flex-direction: column;
+    align-items: center;
+    width: 25px;
+    border-right: 2px solid #292cf0;
 }
