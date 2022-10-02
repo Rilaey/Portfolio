@@ -10,17 +10,17 @@ header {
     height: 130px;
     background-color: #242222;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 
 h1 {
     background-color: #292cf0;
+    color: #242222;
     width: 225px;
     height: 40px;
     font-size: 30px;
     font-family: marker felt, fantasy;
-    margin-right: 900px;
     padding: 20px 0px 20px 120px; 
 }
 
@@ -43,8 +43,10 @@ p {
 
 .top-nav {
     display: flex;
-    flex: row;
-    justify-content: right;
+    flex-wrap: wrap;
+    /*flex: 1 0 0;*/
+    justify-content: center;
+    align-items: center;
     color: #292cf0;
     font-size: 30px;
     font-family: marker felt, fantasy;
@@ -101,26 +103,29 @@ a {
 }
 
 .work-container {
-    display: flex
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 0;
+    align-items: center;
 }
 
 .big-img {
     width: 650px;
-    height: 612px;
+    height: 500px;
     border: 5px solid #292cf0;
     margin: 0 20px;
 }
 
 .small-project-cards {
     /*border: 2px solid orange;*/
+    position: relative;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    flex-basis: 50%;
+    width: 50%;
     justify-content: space-between;
-    padding-right: 200px;
+    padding-left: 260px;
     /*height: 630px;*/
-    align-items: center;
+    align-items: right;
 }
 
 .small-project-cards img {
@@ -138,7 +143,7 @@ a {
     font-size: 36px;
     background-color: rgba(161, 86, 127, 0.5);
     left: 148px;
-    top: 414px;
+    top: 301px;
     height: 200px;
     width: 120px;
     border: 2px solid black;
