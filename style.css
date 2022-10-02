@@ -16,12 +16,16 @@ header {
 
 h1 {
     background-color: #292cf0;
-    color: #242222;
+    color: white;
     width: 225px;
     height: 40px;
     font-size: 30px;
     font-family: marker felt, fantasy;
     padding: 20px 0px 20px 120px; 
+}
+
+h2 {
+    color: white;
 }
 
 h3 {
