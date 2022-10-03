@@ -131,6 +131,7 @@ a {
     /*height: 630px;*/
     align-items: right;
     flex: 4;
+    padding: 10px;
 }
 
 .small-project-cards img {
