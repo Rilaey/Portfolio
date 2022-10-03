@@ -130,6 +130,7 @@ a {
     padding-left: 260px;
     /*height: 630px;*/
     align-items: right;
+    flex: 4;
 }
 
 .small-project-cards img {
