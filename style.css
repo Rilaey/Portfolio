@@ -204,3 +204,15 @@ a:hover {
     width: 25px;
     border-right: 2px solid #292cf0;
 }
+
+@media screen and (max-width: 768px) {
+    .card,
+    .card:first-child {
+      flex-basis: 100%;
+      width: 50%;
+    }
+  
+    .card:first-child {
+      min-height: 150px;
+    }
+  }
