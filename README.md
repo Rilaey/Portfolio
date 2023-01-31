@@ -16,5 +16,3 @@ of computational thinking.
 ## Usage
 
 - You can access the most up to date verison of this project at https://rilaey.github.io/Portfolio/
-
-- ![screenshot of portfolio web page](./images/my-portfolio-screenshot.png)
