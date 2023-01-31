@@ -1,66 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Riley's Portfolio</title>
-    <link href="style.css" rel="stylesheet">
-</head>
-<body>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
     <header>
-        <h1>Riley Newhart</h1>
-            <nav>
-                <li class="top-nav">
-                    <ul><a href="#about-me">About me</a></ul>
-                    <ul><a href="#work">Work</a></ul>
-                    <ul><a href="#contact">Contact</a></ul>
-                </li>
-            </nav>
+      <h1>Riley Newhart</h1>
+      <nav>
+        <li class="top-nav">
+          <ul>
+            <a href="#about-me">About me</a>
+          </ul>
+          <ul>
+            <a href="#work">Work</a>
+          </ul>
+          <ul>
+            <a href="#contact">Contact</a>
+          </ul>
+        </li>
+      </nav>
     </header>
 
     <header class="below-head">
-        <h2>Portfolio</h2>
+      <h2>Portfolio</h2>
     </header>
 
-    <section class="container">
-        <div class="about-me" id="about-me">
-            <h3 class="heads">About Me</h3>
-                <img src="./images/profile_pic.jpeg" alt="photo of myself" class="profile">
-                    <p>I began my programming journey in late fall of 2021 and quickly fell in love with the idea 
-                    of creating projects while wanting to learn amazing new concepts and languages, But I felt I needed
-                    more of a structure to my learning which is when I enrolled in the UCF coding bootcamp in fall of 
-                    2022. I'm very excited to further my journey and see where this path takes me!</p>
-        </div>
+    <section class="container about-all-section">
+      <div class="about-me" id="about-me">
+        <h3 class="heads">About Me</h3>
+        <img
+          src="./images/profile_pic.jpeg"
+          alt="photo of myself"
+          class="profile"
+        />
+        <p>
+          I began my programming journey in late fall of 2021 and quickly fell
+          in love with the idea of creating projects while wanting to learn
+          amazing new concepts and languages, But I felt I needed more of a
+          structure to my learning which is when I enrolled in the UCF coding
+          bootcamp in fall of 2022. I'm very excited to further my journey and
+          see where this path takes me!
+        </p>
+      </div>
 
-        <div class="contain-work" id="work">
-            <h3 class="heads">Work</h3>
-    
-                    <div class="col-4">
-                        <a href="https://rilaey.github.io/Weather-Forcast/"><img class="work-img" src="./images/weather.png"></a>
-                        <a href="https://rilaey.github.io/Weather-Forcast/"><h2 class="work-txt">Weather App</h2></a>
-                    </div>
-                    <div class="col-4">
-                        <a href="https://take-some-notes-today.herokuapp.com/"><img class="work-img" src="./images/note-img.jpeg"></a>
-                        <a href="https://take-some-notes-today.herokuapp.com/"><h2 class="work-txt">Note Taker</h2></a>
-                    </div>
-                    <div class="col-4">
-                        <a href="https://rilaey.github.io/Park-Finder/"><img class="work-img" src="./images/logo.png"></a>
-                        <a href="https://rilaey.github.io/Park-Finder/"><h2 class="work-txt">Park Finder</h2></a>
-                    </div>
-        </div>
+      <div class="contain-work" id="work">
+        <h3 class="heads">Work</h3>
 
-        <div class="contact" id="contact">
-            <h3 class="heads">Contact</h3>
-                <nav class="footer-contact">
-                    <li class="footer-contact">
-                        <ul>xrileynewhart@gmail.com</ul>
-                        <ul>407-276-0494</ul>
-                        <ul><a href="https://github.com/Rilaey" class="hub">Github</a></ul>
-                    </li>
-                </nav>    
+        <div class="col-4">
+          <a href="https://rilaey.github.io/Weather-Forcast/"
+            ><img class="work-img" src="./images/weather.png"
+          /></a>
+          <a href="https://rilaey.github.io/Weather-Forcast/"
+            ><h2 class="work-txt">Weather App</h2></a
+          >
         </div>
+        <div class="col-4">
+          <a href="https://backyard-sports.herokuapp.com/"
+            ><img class="work-img" src="./images/BackyardSportsLogo1.png"
+          /></a>
+          <a href="https://backyard-sports.herokuapp.com/"
+            ><h2 class="work-txt">Backyard-Sports</h2></a
+          >
+        </div>
+        <div class="col-4">
+          <a href="https://rilaey.github.io/Park-Finder/"
+            ><img class="work-img" src="./images/logo.png"
+          /></a>
+          <a href="https://rilaey.github.io/Park-Finder/"
+            ><h2 class="work-txt">Park Finder</h2></a
+          >
+        </div>
+      </div>
 
+      <div class="contact-this" id="contact">
+        <div>
+          <h3 class="heads">Contact</h3>
+        </div>
+        <div class="footer-contact">
+          <a class="foot-link">xrileynewhart@gmail.com</a>
+          <a class="foot-link">407-276-0494</a>
+          <a class="foot-link" href="https://github.com/Rilaey" class="hub">Github</a>
+        </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>
