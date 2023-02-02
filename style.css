@@ -147,29 +147,23 @@ h1 {
     padding-bottom: 30px;
 }
 
+.contact-this {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
 .foot-link {
     text-decoration: none;
     color: black;
     font-size: 24px;
+    padding: 0 50px;
 }
 
 .foot-link:hover {
     color: red;
 }
 
-/* .contact-this {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-evenly;
-} */
-
-.footer-contact {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    padding-bottom: 250px;
-}
 
 @media screen and (max-width: 768px) {
     .card,
